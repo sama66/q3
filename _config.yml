@@ -1,0 +1,10 @@
+# Site settings
+title: Dhrupad
+email: sankrityayan@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Classical North Indian temple and court music of the Dagar tradition
+baseurl: "/q3" # the subpath of your site, e.g. /blog/
+url: "http://sama66.github.io/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
