@@ -1,6 +1,22 @@
-/**
- * Page content
- */
+//TWO COLOUMNS
+
+.two-column {
+  display: flex;
+}
+
+.col-left {
+  flex: 2;
+}
+
+.col-right {
+  flex: 1;
+
+  .clearfix {
+    background: beige;
+  }
+}
+//PAGE CONTENT
+
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -15,6 +31,12 @@
 
     > li {
         margin-bottom: $spacing-unit;
+
+
+        h2 {
+          margin: 0;
+          padding: 0;
+        }
     }
 }
 

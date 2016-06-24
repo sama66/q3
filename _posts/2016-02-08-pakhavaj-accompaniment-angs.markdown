@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: articles-list
 title:  Pakhāvaj Accompaniment With Aṅgs
 date:   2016-02-08 21:20:52
 author: Ashish Sankrityayan
