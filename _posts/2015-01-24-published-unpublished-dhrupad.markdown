@@ -1,5 +1,5 @@
 ---
-layout: three-columns
+layout: articles
 title:  The Search for Published and Unpublished Works on Dhrupad
 date:   2015-01-24 21:20:52
 author: Ashish Sankrityayan

@@ -1,6 +1,6 @@
 # Site settings
 title: Dhrupad
-email: sankrityayan@gmail.com
+email: sankrityayanATgmail
 description: > # this means to ignore newlines until "baseurl:"
   Classical North Indian temple and court music of the Dagar tradition
 baseurl: "/q3" # the subpath of your site, e.g. /blog/
