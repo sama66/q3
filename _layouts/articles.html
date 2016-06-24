@@ -10,7 +10,7 @@ layout: default
 
   <article class="post-content">
     {% if page.img %}<img src="{{ site.baseurl }}/asset/img/medium/{{ page.img.medium }}">{% endif %}
-    {{ content }}
+    {{ content | markdownify }}
   </article>
 
 </div>
