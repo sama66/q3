@@ -45,14 +45,14 @@ A consequence of the fundamental role of the vedic accents is that phrases of dh
 
 However, though this also leads to a music that is in some sense more entertaining and exciting, it also fundamentally alters the very concept of rāg, for devoid of the vedic accents, the music cannot adequately explore the concept of samvād and microtones, but must start regarding rāgs as sequences of notes executed in a certain way.
 
-<h3>References</h3>
+###References
 
 1. Dhrupad Tradition and Performance in Indian MusicRitwik Sanyal, Richard Widdess, Ashgate Publishing Limited, page161
 2. The Ashtadhyayi of Panini – Rama Nath Sharma, Munshiram Manoharlal Publishers Pvt. Ltd. sutra numbers 1/2/29, 1/2/30, 1/2/31 pages 99,100
 3. Shukla Yajur Veda – Pratishakhya, with commentary by Dr. Virendra Kumar Verma, Choukhamba Sanskrit Pratishthan, Delhi, ch. 1 sutra no. 108, pages 59,60
 4. Hidden Face of Ancient Indian Song- Solveig McIntosh, Ashgate Publishing Limited, chapter 4
 
-<h3>Acknowledgements</h3>
+###Acknowledgements
 
 The author wishes to express his gratitude to Skye Lofvander and Knud Brant for their numerous stimulating discussions and insights on the subject of microtones, and to Skye Lofvander for the two diagrams accompanying this article. He also expresses his gratitude to Solveig McIntosh for reading and correcting a major part of the article. The author is however solely responsible for any inadvertent errors that may still be present. Thanks are also due to Martin Redfern and Resul Pookutty for the work they did on the audio recordings, excerpts from which accompany this article and to Dalchand Sharma for his pakhawaj accompaniment in one of the audio samples. The author dedicates this article to the maestros of the Dagar family - Ustad Nasir Aminuddin Dagar, Ustad Rahim Fahimuddin Dagar, Ustad Zia Mohiuddin Dagar, Ustad Zia Fariduddin Dagar and Ustad Hussain Sayeeduddin Dagar, who gave him the knowledge that made the writing of this article possible.
 
