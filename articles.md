@@ -9,9 +9,8 @@ permalink: /articles/
 
 <div class="col-left">
   <article class="post-content">
-    {% if page.img %}<img src="{{ site.baseurl }}/asset/img/medium/{{ page.img.medium }}">{% endif %}
     <ul class="post-list">
-      {% for post in site.posts %}
+      {% for post in site.categories.articles %}
         <li>
           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
           <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
@@ -25,6 +24,7 @@ permalink: /articles/
 
 <div class="col-right">
   <div class="clearfix">
+    <ul>
     {% for category in site.categories %}
     <li><span class="sidebar">{{ category | first }}</span>
       <ul>
@@ -36,6 +36,7 @@ permalink: /articles/
       </ul>
     </li>
   {% endfor %}
+  </ul>
   </div>
 </div>
 

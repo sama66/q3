@@ -12,7 +12,9 @@
   flex: 1;
 
   .clearfix {
-    background: beige;
+    border-left: 1px dashed brown;
+    padding-left: $spacing-unit/2;
+    margin-left: $spacing-unit/2;
   }
 }
 //PAGE CONTENT
@@ -26,8 +28,6 @@
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
 
     > li {
         margin-bottom: $spacing-unit;

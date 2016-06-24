@@ -1,0 +1,11 @@
+ul.maestro-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  li {
+    width: 150px;
+    margin-bottom: $spacing-unit;
+    margin-right: $spacing-unit;
+  }
+}
