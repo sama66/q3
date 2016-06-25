@@ -5,6 +5,15 @@
 }
 
 @media screen and (max-width: $on-palm) {
+  header {
+    background: rgba(250, 199, 200, 0.5);
+    position: fixed;
+    width: 100%;
+  }
+  .page-content {
+    background: beige;
+    padding-top: 100px;
+  }
   .two-column {
     display: block;
   }
