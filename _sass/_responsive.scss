@@ -1,8 +1,19 @@
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
+@media screen and (max-width: $on-laptop) {
+  body {
+    background: white;
+  }
+}
+
+@media screen and (max-width: $on-palm) {
+  .two-column {
+    display: block;
+  }
+  .col-right {
+    .clearfix {
+      border: 0;
+      padding: $spacing-unit/2;
+      margin-left: 0;
+      background: $background-color;
     }
-    body {
-      background: white;
-    }
+  }
 }
