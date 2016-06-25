@@ -1,6 +1,6 @@
 ---
 layout: maestro-page
-title: Zakiruddin Khan
+title: Ustad Zakiruddin Khan
 date:   2016-05-01 21:20:52
 categories: maestros
 img:

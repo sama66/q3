@@ -1,17 +1,33 @@
 @media screen and (max-width: $on-laptop) {
-  body {
-    background: white;
-  }
+
 }
 
 @media screen and (max-width: $on-palm) {
   header {
-    background: rgba(250, 199, 200, 0.5);
+    background: rgba(245, 245, 245, 0.5);
     position: fixed;
     width: 100%;
   }
+  .site-title {
+        &,
+        &:visited {
+            color: darken($title-color, 30%);
+        }
+  }
+  .title-wrap {
+    float: left;
+    margin: 12px 0;
+
+    h1 {
+      margin: 0;
+    }
+  }
+  p.description {
+    display: none;
+  }
+
+
   .page-content {
-    background: beige;
     padding-top: 100px;
   }
   .two-column {
@@ -22,7 +38,17 @@
       border: 0;
       padding: $spacing-unit/2;
       margin-left: 0;
-      background: $background-color;
+      background: darken($background-color, 10%);
     }
   }
+
+  ul.maestro-list {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: flex-start;
+
+    li {
+      margin: 3px;
+    }
+}
 }

@@ -1,20 +1,21 @@
 // Our variables
-$base-font-family: 'David Libre', serif;
+$base-font-family: 'Merriweather', serif;
 $header-font:      'Scope One', sans-serif;
-$base-font-size:   18px;
+$base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
+$background-color: #494f5e;
 $title-color:      #c7ac7c;
-$heading-color:    #254c47;
-$text-color:       #000;
-$background-color: #d8d6c2;
-$link-color:      #df8b27;
+$heading-color:    #d6c7a6;
+$text-color:       #e5e5e5;
+$link-color:      #f25000;
+$nav-color:       #f5f5f5;
 $hover:           #000;
-
-$subtitle:       lighten($heading-color, 3%);
+$subtitle:       darken($heading-color, 10%);
+$selection-color: #a9ddba;
 
 
 // Width of the content area
