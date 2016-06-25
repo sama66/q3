@@ -1,7 +1,7 @@
 //Site header
 
 header {
-    border-top: 4px solid $grey-color-dark;
+    border-top: 4px solid #000;
     border-bottom: 1px solid $title-color;
     min-height: 56px;
 
@@ -50,7 +50,7 @@ header {
         top: 9px;
         right: 30px;
         background-color: $background-color;
-        border: 1px solid $grey-color-light;
+        border: 1px solid $subtitle;
         border-radius: 5px;
         text-align: right;
 
@@ -68,7 +68,7 @@ header {
                 height: 15px;
 
                 path {
-                    fill: $grey-color-dark;
+                    fill: #CCC;
                 }
             }
         }

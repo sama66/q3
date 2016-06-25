@@ -4,4 +4,4 @@ title: Maestros
 permalink: /maestros/
 ---
 
-{% include maestro-page.html %}
+{% include maestro-list.html %}

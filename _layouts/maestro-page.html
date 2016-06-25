@@ -2,14 +2,26 @@
 layout: default
 ---
 <div class="post">
-
   <div class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </div>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
+  <div class="three-column">
+    <div class="three-col-1">
+      {% if page.img %}<img src="{{ site.baseurl }}/asset/img/medium/{{ page.img.medium }}">{% endif %}
+      <h1 class="post-title">{{ page.title }}</h1>
+    </div>
+    <div class="three-col-2">
+    <article class="post-content">
+      {{ content }}
+    </article>
+  </div>
+    <div class="three-col-3">
+      <ul>
+        {% for post in site.categories.maestros %}
+          <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
 </div>

@@ -4,12 +4,35 @@ layout: default
 <div class="post">
 
   <div class="post-header">
+    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="post-meta">{% if page.author %}{{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </div>
 
-  <article class="post-content">
-    {% if page.img %}<img src="{{ site.baseurl }}/asset/img/medium/{{ page.img.medium }}">{% endif %}
-    {{ content | markdownify }}
-  </article>
+  <div class="two-column">
+    <div class="col-left">
+      <article class="post-content">
+        {% if page.img %}<img src="{{ site.baseurl }}/asset/img/medium/{{ page.img.medium }}">{% endif %}
+        {{ content | markdownify }}
+      </article>
+    </div>
+    <div class="col-right">
+      <div class="col-right">
+        <div class="clearfix">
+          <ul>
+          {% for category in site.categories %}
+          <li><span class="sidebar">{{ category | first }}</span>
+            <ul>
+              {% for posts in category %}
+              {% for post in posts %}
+              <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
+              {% endfor %}
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+        </ul>
+        </div>
+    </div>
+  </div>
 </div>

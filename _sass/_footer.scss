@@ -1,7 +1,7 @@
 //footer
 
 footer {
-    border-top: 1px solid $grey-color-light;
+    border-top: 1px solid lighten($background-color, 10%);
     padding: $spacing-unit 0;
 }
 
@@ -18,7 +18,7 @@ footer {
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: white;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
