@@ -22,8 +22,33 @@
 }
 .splash-picture {
   flex: 2;
+  .splash-text {
+    position: relative;
+    display: block;
+    margin-top: -80px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9;
+  }
 }
 
 .three-boxes {
-  width: 330px;
+  flex: 5;
+}
+.gutter {
+  flex: 1;
+}
+.concerts {
+  li {
+  font-size: 0.7em;
+  display: inline-block;
+  }
+}
+.section-3 {
+  display: flex;
+}
+.video-box {
+  flex: 6;
+  height: 100px;
+  background: green;
 }
