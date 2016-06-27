@@ -65,7 +65,10 @@
       line-height: 1.05;
     }
 }
-
+img.image-left {
+  float: left;
+  margin-right: $spacing-unit/2;
+}
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;

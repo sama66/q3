@@ -22,22 +22,6 @@ permalink: /articles/
   </article>
 </div>
 
-<div class="col-right">
-  <div class="clearfix">
-    <ul>
-    {% for category in site.categories %}
-    <li><span class="sidebar">{{ category | first }}</span>
-      <ul>
-        {% for posts in category %}
-        {% for post in posts %}
-        <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-        {% endfor %}
-        {% endfor %}
-      </ul>
-    </li>
-  {% endfor %}
-  </ul>
-  </div>
-</div>
+
 
 </div>

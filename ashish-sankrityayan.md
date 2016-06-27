@@ -4,7 +4,7 @@ title: Ashish Sankrityayan
 permalink: /ashish-sankrityayan/
 img: ashish-sankrityayan-01.jpg
 ---
-![Ashish Sankrityayan]({{ site.baseurl }}/asset/img/ashish-sankrityayan-01.jpg{{ prepend:site.baseurl }})
+![Ashish Sankrityayan]({{ site.baseurl }}/asset/img/ashish-sankrityayan-02.jpg{{ prepend:site.baseurl }}){:.image-left}
 
 Ashish Sankrityayan is an exponent of the Dagar Tradition of Dhrupad. He has trained for twenty years under three maestros of the Dagar family and is well known for his frequent concert appearances and teaching. Ashish Started his musical training at an early age, first learning the sitar and subsequently vocal music. While studying mathematics at the University of Bombay he was inspired to take up Dhrupad when he heard a recording of the senior Dagar brothers Nasir Moinuddin and Nasir Aminuddin Dagar, and met Rudra Veena maestro Ustad Zia Mohiuddin Dagar.</p>
 
