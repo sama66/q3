@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: sidebar-article
 title: Articles
 permalink: /articles/
 ---

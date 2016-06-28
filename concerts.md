@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: sidebar-article
 title: Concerts
 permalink: /concerts/
 ---
