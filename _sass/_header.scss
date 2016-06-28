@@ -32,6 +32,7 @@ header {
 }
 ul.out-site {
   text-align: right;
+  background: mistyrose;
 }
 .site-title {
 
@@ -56,7 +57,6 @@ ul.out-site {
     }
 
     ul {
-      float: left;
       margin-left: $spacing-unit;
       padding-bottom: 0;
 
@@ -89,7 +89,6 @@ ul.out-site {
         // Gaps between nav items, but not on the first one
         &:not(:first-child) {
             margin-left: 100px;
-            background: red;
         }
 
         &:hover {
