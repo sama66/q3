@@ -2,22 +2,21 @@
 
 header {
     border-bottom: 4px solid lighten($background-color, 10%);
-    min-height: 56px;
+    margin-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
 
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 .title-wrap {
   max-width: 26%;
-  float: left;
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
 
   h1 {
     line-height: 1.2;
     letter-spacing: -2px;
-    margin: 27px 0 0;
+    margin: 0;
     font-size: 3em;
   }
 
@@ -25,6 +24,14 @@ header {
     line-height: 1.1;
     font-size: 0.75em;
   }
+}
+.header-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul.out-site {
+  text-align: right;
 }
 .site-title {
 
@@ -41,8 +48,6 @@ header {
 .site-nav {
     line-height: 1;
     display: flex;
-    padding: $spacing-unit;
-    padding-left: 0;
     font-family: Trebuchet, sans-serif;
 
     .trigger {
