@@ -18,11 +18,12 @@ header {
     line-height: 1.2;
     letter-spacing: -2px;
     margin: 27px 0 0;
+    font-size: 3em;
   }
 
   .description {
     line-height: 1.1;
-    font-size: 0.65em;
+    font-size: 0.75em;
   }
 }
 .site-title {
@@ -40,7 +41,7 @@ header {
 .site-nav {
     line-height: 1;
     display: flex;
-    padding: $spacing-unit/2;
+    padding: $spacing-unit;
     padding-left: 0;
     font-family: Trebuchet, sans-serif;
 
