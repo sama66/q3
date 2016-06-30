@@ -69,6 +69,10 @@ img.image-left {
   float: left;
   margin-right: $spacing-unit/2;
 }
+img.image-right {
+  float: right;
+  margin-left: $spacing-unit/2;
+}
 .post-title {
     font-size: 42px;
     letter-spacing: -1px;
