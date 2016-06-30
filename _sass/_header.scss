@@ -24,6 +24,7 @@ header {
   .description {
     line-height: 1.1;
     font-size: 0.75em;
+    color: $title-color;
   }
 }
 .header-flex {
@@ -43,7 +44,7 @@ header {
     }
     &:hover {
       text-decoration: none;
-      color: darken($title-color, 10%);
+      color: lighten($title-color, 10%);
     }
 }
 
