@@ -10,7 +10,7 @@ Hildegard von Bingen, The great German seer described music as a means of recapt
 
 Dhrupad is the oldest surviving tradition of classical music in India. It originated in the chanting of hymns and developed under the patronage of imperial courts in India over many centuries into a classical form, with its own complex grammar and aesthetics. In this style of singing the singer develops the inner resonance of the body, and can make the sound resonate and flow freely through the entire region from navel to head. This enables the singer to use a vast palette of subtle tone colours and microtonal shades. In this music the notes are not treated as fixed points, but as fluid entities with infinite microtonal shades.
 
-![Esrum]({{ site.baseurl }}/asset/img/medium/esrum2.jpg){:.image-left}
+![Esrum]({{ site.baseurl }}/asset/img/medium/esrum-2.jpg){:.image-left}
 
 Dhrupad & Hildegard have surprisingly a lot in common both in form and spirit. Belonging roughly to the same period, the melodic phrases of Dhrupad and those of Hildegard’s compositions have a similar structure. Hildegard’s single modal melodic lines have the feel of Indian ragas. It is obvious that about 1000 years ago the sacred music of Europe and that of India had much in common though separated by a vast geographical distance.
 
