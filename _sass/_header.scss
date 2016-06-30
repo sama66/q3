@@ -10,6 +10,7 @@ header {
 }
 .title-wrap {
   max-width: 26%;
+  flex:1;
   display: flex;
   flex-direction: column;
 
@@ -30,8 +31,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-ul.out-site {
+.out-site {
   text-align: right;
+  flex: 1;
 }
 .site-title {
 
@@ -47,6 +49,8 @@ ul.out-site {
 
 .site-nav {
     line-height: 1;
+    flex:2;
+    justify-content: center;
     display: flex;
     font-family: Trebuchet, sans-serif;
 

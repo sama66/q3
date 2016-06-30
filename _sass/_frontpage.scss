@@ -27,12 +27,13 @@
 .splash-picture {
   flex: 2;
   .splash-text {
-    color: #000;
+    color: #FFF;
+    background: rgba(0, 0, 0, 0.5);
     font-size: 120%;
     font-weight: bold;
     position: relative;
     display: block;
-    margin: -120px 0 $spacing-unit;
+    margin: -118px 0 $spacing-unit;
     padding: 10px;
   }
 }

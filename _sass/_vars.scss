@@ -7,19 +7,19 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$background-color: #494f5e;
-$title-color:      #c7ac7c;
+$background-color: #202834;
+$title-color:      lighten($background-color, 20%);
 $heading-color:    #d6c7a6;
 $text-color:       #e5e5e5;
-$link-color:      #df7392;
+$link-color:      #f5ae05;
 $nav-color:       #a6a8c6;
-$hover:           #dea1b9;
+$hover:           #FFF;
 $subtitle:       darken($heading-color, 10%);
 $selection-color: #a9ddba;
 
 
 // Width of the content area
-$content-width:    1200px;
+$content-width:    1000px;
 
 $on-palm:          650px;
 $on-laptop:        850px;

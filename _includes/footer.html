@@ -10,8 +10,23 @@
           <li>{{ site.email }}</li>
         </ul>
       </div>
+      <div class="footer-col  footer-col-2"></div>
 
-      <div class="footer-col  footer-col-2">
+<!-- facebook -->
+<div class="fb-share-button" data-href="{{site.url}}{{page.url}}" data-layout="button_count" style="position: relative; top: -8px; left: 33px;">Facebook</div>
+
+<!-- Place this tag where you want the share button to render. -->
+<div class="g-plus" data-action="share"></div>
+
+<!-- Place this tag after the last share tag. -->
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/platform.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+      <div class="footer-col  footer-col-3">
         <ul class="social-media-list">
           {% if site.github_username %}
           <li>

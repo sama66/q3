@@ -17,16 +17,40 @@ footer {
 }
 
 .footer-col-wrapper {
-    font-size: 15px;
-    color: white;
-    margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
+  display: flex;
+  justify-content: space-between;
+  font-size: $small-font-size;
+  color: lighten($background-color, 30%);;
+  margin-left: -$spacing-unit / 2;
+  @extend %clearfix;
 }
 
 .footer-col {
-    float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+  flex: 1;
+}
+
+.social-media-buttons {
+  a {
+    height: 35px;
+    width: 35px;
+    font-size: 0;
+    display: inline-block;
+    background: url('/asset/img/buttons-small.png');
+    transition: background .2s;
+  }
+  .fb {
+    background-position: -1px -76px;
+    &:hover {
+      background-position: -1px -1px;
+    }
+  }
+  .google {
+    background-position: -115px -76px;
+    &:hover {
+      background-position: -115px -1px;
+    }
+  }
+
 }
 
 .footer-col-1 {

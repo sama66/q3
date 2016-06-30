@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="wrapper post">
 
   <div class="post-header">
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
@@ -16,11 +16,14 @@ layout: default
         {{ content | markdownify }}
       </article>
     </div>
+
     <div class="col-right">
       <div class="col-right">
         <div class="clearfix">
           {% include list-articles-maestro.html %}
         </div>
+      </div>
     </div>
+
   </div>
 </div>

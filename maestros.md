@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: full-width
 title: Maestros
 permalink: /maestros/
 ---
