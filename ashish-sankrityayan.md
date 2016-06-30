@@ -2,7 +2,6 @@
 layout: sidebar-article
 title: Ashish Sankrityayan
 permalink: /ashish-sankrityayan/
-img: ashish-sankrityayan-01.jpg
 ---
 ![Ashish Sankrityayan]({{ site.baseurl }}/asset/img/ashish-sankrityayan-02.jpg{{ prepend:site.baseurl }}){:.image-left}
 
