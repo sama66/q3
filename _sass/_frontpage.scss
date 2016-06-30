@@ -44,6 +44,11 @@
 .gutter {
   flex: 1;
 }
+.image-overlay {
+  position: relative;
+  margin-top: -200px;
+  //padding-bottom: -200px;
+}
 .concerts {
   li {
   font-size: 0.75em;
