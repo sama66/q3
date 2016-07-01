@@ -68,10 +68,32 @@
 img.image-left {
   float: left;
   margin-right: $spacing-unit/2;
+  border: 2px solid #333;
+
+  + em {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #666;
+    font-size: $small-font-size;
+  }
 }
 img.image-right {
   float: right;
   margin-left: $spacing-unit/2;
+  border: 2px solid #333;
+
+  + em {
+    float: right;
+    text-align: right;
+    width: 60%;
+    color: #666;
+    font-size: $small-font-size;
+    margin-bottom: 10px;
+  }
+}
+.image-center {
+  align-self: center;
 }
 .post-title {
     font-size: 42px;

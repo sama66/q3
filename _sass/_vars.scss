@@ -7,12 +7,12 @@ $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$background-color: #8f5f46;
-$title-color:      lighten($background-color, 20%);
-$heading-color:    #d6c7a6;
-$text-color:       #e5e5e5;
-$link-color:      #f6d7c8;
-$nav-color:       #edc77d;
+$background-color: #e2d3b7;
+$title-color:      darken($background-color, 8%);
+$heading-color:    #b6904a;
+$text-color:       #404040;
+$link-color:      #f0541e;
+$nav-color:       #b4a227;
 $hover:           #FFF;
 $subtitle:       darken($heading-color, 10%);
 $selection-color: #a9ddba;

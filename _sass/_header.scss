@@ -1,7 +1,7 @@
 //Site header
 
 header {
-    border-bottom: 4px solid lighten($background-color, 10%);
+    border-bottom: 4px solid darken($background-color, 8%);
     margin-top: $spacing-unit;
     padding-bottom: $spacing-unit;
 
@@ -34,7 +34,9 @@ header {
 }
 .out-site {
   text-align: right;
-  flex: 1;
+  flex-shrink: 1;
+  font-size: $small-font-size;
+  font-weight: bold;
 }
 .site-title {
 
@@ -44,7 +46,7 @@ header {
     }
     &:hover {
       text-decoration: none;
-      color: lighten($title-color, 10%);
+      color: darken($title-color, 15%);
     }
 }
 

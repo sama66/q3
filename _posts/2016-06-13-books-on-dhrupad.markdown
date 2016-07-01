@@ -57,7 +57,7 @@ Search and digitization of rare works requires funds and donations supporting th
 
 `Dhrupad Dhamar`{:.book} by Balasaheb Poochwale - Has Dhrupad compositions from the tradition of Vamanbua Deshpande of Gwalior.
 
-###Modern Recenly Published General Works on Dhrupad
+<h3>Modern Recenly Published General Works on Dhrupad</h3>
 
 `Dhruvapada`{:.book} by Indurama Shrivastava - A very scholarly and well referenced book - the PhD thesis of the author. Contains references to some rare recordings of Dhrupad in the Sangeet Natak Academy archives of Dhrupad singers like Bharatji Vyas and T.L. Rana.
 
