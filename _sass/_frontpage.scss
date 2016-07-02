@@ -1,14 +1,15 @@
 //SECTION 1
 
-.section {}
+.section {
+  margin-bottom: $spacing-unit;
+  padding: $spacing-unit 0;
+}
 .sub-section {
   border-bottom: 1px solid $nav-color;
 }
 .section-flex {
   display: flex;
   justify-content: space-between;
-  margin-bottom: $spacing-unit;
-  padding: $spacing-unit 0;
 //  background: burlywood;
   img {
     width: 100%;
@@ -55,7 +56,9 @@
   display: inline-block;
   }
 }
-
+.row {
+  margin-bottom: $spacing-unit;
+}
 .video-box {
   flex: 7;
   height: 160px;
