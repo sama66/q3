@@ -1,0 +1,10 @@
+---
+layout:     videos
+title:      Dhrupad Chowtal Raga Yaman
+date:       2013-01-11 21:20:52
+tags:       [ vocal, yaman ]
+categories: recordings
+img:        chowtaal-raga-yaman.jpg
+video:      <iframe width="640" height="480" src="https://www.youtube.com/embed/may0R89gojw" frameborder="0" allowfullscreen></iframe>
+---
+Concert in Hannover 2007. Dhrupad Vocal Dagar Bani - Tansen composition in Raga Yaman performed by Dhrupad singer Ashish Sankrityayan pakhawaj by Udhav Shinde Apegaonkar. Excerpt from a concert at the Friedenspalast Sophienstrasse Hannover in March 2007. The concert was in natural accoustics without the use of mikes and amplification.

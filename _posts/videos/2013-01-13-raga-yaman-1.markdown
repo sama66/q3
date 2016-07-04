@@ -1,0 +1,10 @@
+---
+layout:     videos
+title:      Alap Yaman Shloka/Mantra Syllables
+date:       2013-01-13 21:20:52
+tags:       [ vocal, yaman ]
+categories: recordings
+img:        raga-yaman.jpg
+video:      <iframe width="640" height="480" src="https://www.youtube.com/embed/6ZA5QOp_yjk" frameborder="0" allowfullscreen></iframe>
+---
+Excerpt from a concert by Dhrupad singer Ashish Sankrityayan singing Alap in raga Yaman at the Friedenspalst Sophienstrasse Hannover in March 2007 using the syllable of sholka / mantra hari om narayan. The concert was in natural accoustics without the use of mikes and amplification. This is a part of the Alap in moderate tempo (madhya laya). The pakhawaj accompanist on the left is Udhav Shinde son and disciple of pakhawaj maestro Shankarrao Shinde Apegaonkar

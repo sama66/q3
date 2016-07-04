@@ -1,6 +1,6 @@
 ---
 layout:     videos
-title:      Odissi
+title:      Dhrupad & Odissi
 date:       2009-06-03 21:20:52
 tags:       [ vocal, odissi, dance, khajurao, concert ]
 categories: recordings

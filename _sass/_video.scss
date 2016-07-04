@@ -7,9 +7,10 @@
     background: $title-color;
     font-size: 0.8em;
     line-height: 1.1;
-    width: 220px;
+    flex: 0 1 200px;
     padding: 3px;
     margin-bottom: 15px;
+    transition: background 1s;
 
     p {
       margin: 8px 0;
@@ -17,6 +18,10 @@
 
     img {
       width: 100%;
+    }
+    &:hover {
+      background: darken($background-color, 30%);
+      color: white;
     }
   }
 }
