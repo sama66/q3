@@ -7,7 +7,7 @@ layout: full-width
       <article class="post-content">
         <h1 class="post-title">{{ page.title }}</h1>
         {% if page.img %}<p><img src="{{ site.baseurl }}/asset/img/medium/{{ page.img.medium }}"></p>{% endif %}
-        {{ content | markdownify }}
+        {{ content }}
       </article>
     </div>
     <div class="col-right">
