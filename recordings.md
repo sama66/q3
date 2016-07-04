@@ -1,7 +1,7 @@
 ---
-layout: sidebar-article
+layout: full-width
 title: Recordings
 permalink: /recordings/
 ---
 
-Recording
+{% include recording-list.html %}
