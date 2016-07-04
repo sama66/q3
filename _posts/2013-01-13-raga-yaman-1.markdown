@@ -1,0 +1,10 @@
+---
+layout:     videos
+title:      Alap Yaman Shloka/Mantra Syllables
+date:       2013-01-13 21:20:52
+tags:       [ vocal, dhamar, bageshree, concert ]
+categories: recordings
+img:        chowtaal-raga-yaman.jpg
+video:      <iframe width="640" height="480" src="https://www.youtube.com/embed/6ZA5QOp_yjk" frameborder="0" allowfullscreen></iframe>
+---
+Dhrupad of the Dagar Tradition - Alap and Dhamar in Raga Bageshree by Ashish Sankrityayan of Dhrupad Kendra Bhopal. Pakhawaj Mohan Shyam Sharma, Tanpura Anatolius Lomonosov. Riga Latvia 14th November 2012.

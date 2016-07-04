@@ -1,0 +1,10 @@
+---
+layout:     videos
+title:      Odissi
+date:       2009-06-03 21:20:52
+tags:       [ vocal, odissi, dance, khajurao, concert ]
+categories: recordings
+img:        oddisi-khajurao-festival.jpg
+video:      <iframe width="640" height="480" src="https://www.youtube.com/embed/SBzzwsy2wdI" frameborder="0" allowfullscreen></iframe>
+---
+Odissi Dance choreographed to a Dhrupad composition of Swami Haridas in Tivra Tala ( 7 beats). Dance and Choreography by Bithika Mistry. Dhrupad Vocal Ashish Sankrityayan, Rhythm composition Gandhi Mallik, Tushar Gharat, Pakhawaj played by Tushar Gharat. Khajuraho Festival of Dances 2014.

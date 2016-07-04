@@ -10,7 +10,7 @@ See [The Kendra on Wiki](https://en.wikipedia.org/wiki/Dhrupad_Kendra_Bhopal)
 
 Visit our [Youtube Channel](https://www.youtube.com/user/dhrupadkendrabhopal)
 
-<div class="video-container"><iframe src="https://www.youtube.com/embed/lpnCJUTSqFE" frameborder="0" allowfullscreen></iframe></div>
+<div class="videoWrapper"><iframe src="https://www.youtube.com/embed/lpnCJUTSqFE" frameborder="0" allowfullscreen></iframe></div>
 
 <h4>Students are admitted at the Dhrupad Kendra in two categories</h4>
 

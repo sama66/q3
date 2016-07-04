@@ -1,0 +1,10 @@
+---
+layout:     videos
+title:      Kathak Dance With Vidyagauri Adkar
+date:       2014-03-29 21:20:52
+tags:       [ vocal, kathak, dance, khajurao, concert ]
+categories: recordings
+img:        kathak-khajurao-festival.jpg
+video:      <iframe width="640" height="480" src="https://www.youtube.com/embed/SBzzwsy2wdI" frameborder="0" allowfullscreen></iframe>
+---
+Kathak Dance to a Dhrupad composition in Sutaal (10 beats) by Chaturbihari Das. Choreography and Dance Vidyagauri Adkar. Dhrupad vocal Ashish Sankrityayan. Pakhawaj Tushar Gharat. Khajuraho Dance Festival 2014. (reposted after audio and video processing)

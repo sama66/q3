@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="wrapper post">
+
+
+<p class="videoWrapper">{{ page.video }}</p>
+<div class="post-header">
+  <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+  <h1 class="post-title">{{ page.title }}</h1>
+</div>
+  <article class="post-content">
+    <!-- <p>{% if page.img %}<img src="{{ site.baseurl }}/asset/img/yt-images/{{ page.img }}">{% endif %}</p> -->
+    {{ content | markdownify }}
+  </article>
+
+{% include recording-list.html %}
+
+</div>
