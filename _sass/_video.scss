@@ -1,16 +1,24 @@
 .video-section {
 //  background: linear-gradient(darken($background-color, 10%), darken($background-color, 20%));
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   li {
     background: $title-color;
     font-size: 0.8em;
     line-height: 1.1;
-    flex: 0 1 200px;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 200px;
+            flex: 0 1 200px;
     padding: 3px;
     margin-bottom: 15px;
     box-shadow: 0 0 0;
+    -webkit-transition  : color .3s, background 2s, box-shadow 2s;
     transition: color .3s, background 2s, box-shadow 2s;
 
     p {
@@ -20,6 +28,7 @@
     img {
       width: 100%;
       opacity: 0.7;
+      -webkit-transition  : opacity 1s;
       transition: opacity 1s;
     }
     &:hover {
