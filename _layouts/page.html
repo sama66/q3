@@ -1,14 +1,29 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="page-header">
+  <div class="wrapper">
 
-  <div class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
+      <h1 class="post-title">{{ page.title }}</h1>
+
   </div>
+</div>
+<div class="wrapper">
 
-  <article class="post-content">
-    {{ content }}
-  </article>
 
+  <div class="two-column">
+    <div class="col-left">
+      <article class="post-content">
+        <p>{% if page.img %}<img src="{{ site.baseurl }}/asset/img/medium/{{ page.img.medium }}">{% endif %}</p>
+        {{ content }}
+      </article>
+    </div>
+
+    <div class="col-right">
+      <div class="clearfix">
+        {% include sidebar-list.html %}
+      </div>
+    </div>
+
+  </div>
 </div>

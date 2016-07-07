@@ -7,6 +7,7 @@ img:
   small: rahimuddin-small.jpg
   medium: rahimuddin-medium.jpg
 year: 1901-1976
+permalink: maestros/rahimuddin-khan
 ---
 
 The second son of Ustad Allabande Khan trained under his father and uncle Zakiruddin Khan and also under his elder brother Nasiruddin and cousin Ziauddin. Had a highly erudite approach to the art, and would invariably make many explanatory comments on the theoretical, spiritual and philosophical aspects of his music while singing. Apart from his traditional grounding in the music of his forefathers, he studied for a Bachelor of Arts degree at Aligarh Muslim University. He was the first member of the family to adopt the title 'Dagar' actually the name of the genre as his family name and also started the practice of prefixing his name with the name of his father whereby his full name became Allabande Rahimuddin Khan Dagar. This was eventually adopted by other members of the family leading sometimes to exceedingly long names. Was well versed in sanskrit and persian, and spoke a very rich blend of urdu and hindi. He trained his son Ustad Fahimuddin Dagar and almost all his other nephews got some training from him.

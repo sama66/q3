@@ -1,5 +1,4 @@
 .video-section {
-//  background: linear-gradient(darken($background-color, 10%), darken($background-color, 20%));
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,7 +18,7 @@
     margin-bottom: 15px;
     box-shadow: 0 0 0;
     -webkit-transition  : color .3s, background 2s, box-shadow 2s;
-    transition: color .3s, background 2s, box-shadow 2s;
+    transition: color 2s, background 2s, box-shadow 2s ease-in-out;
 
     p {
       margin: 8px 0;
@@ -29,15 +28,16 @@
       width: 100%;
       opacity: 0.7;
       -webkit-transition  : opacity 1s;
-      transition: opacity 1s;
+      transition: transform 150ms, opacity 1s;
     }
     &:hover {
-      background: darken($background-color, 30%);
+      background: darken($background-color, 80%);
       color: white;
       box-shadow: 0 0 10px #666;
 
       img {
         opacity: 1;
+        transform: scale(0.9);
       }
     }
   }

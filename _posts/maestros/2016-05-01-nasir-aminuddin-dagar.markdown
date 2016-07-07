@@ -7,6 +7,8 @@ img:
   small: nasir-amiuddin-dagar-small.jpg
   medium: nasir-amiuddin-dagar-medium.jpg
 year: 1923-2000
+permalink: maestros/nasir-amiuddin-dagar
+
 ---
 
 The second son of Ustad Nasiruddin Khan who, together with his elder brother Ustad Nasir Moinuddin Dagar, attained fame as the Senior Dagar Brothers. Blessed with a deep resonant voice, and a slightly restrained devotional style, he was the ideal duet partner for his flamboyant elder brother Moinuddin.

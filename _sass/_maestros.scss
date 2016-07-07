@@ -6,15 +6,12 @@ ul.maestro-list {
   display: flex;
   -ms-flex-flow: wrap;
       flex-flow: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 
   li {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin: 0 10px $spacing-unit;
+    margin: 0 20px $spacing-unit 0;
     max-width: 150px;
     height: 225px;
     border: 5px solid lighten($background-color, 5%);

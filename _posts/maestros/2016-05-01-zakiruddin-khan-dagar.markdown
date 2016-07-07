@@ -7,6 +7,7 @@ img:
   small: zakiruddin-small.jpg
   medium: zakiruddin-medium.jpg
 year: 1845? - 1922
+permalink: maestros/zakiruddin-khan-dagar
 ---
 
 The elder son on Mohammad Jan Khan and grand nephew of Baba Behram Khan was appointed the principal musician of the Udaipur court in the 1860s by Maharana Sajjan Singh. His reputation as a singer was awesome. Blessed with a powerful voice, and a vibrant dominant personality that also came across in his singing, he would sometimes be mistaken for a maharaja of a princely state because of his regal sartorial style and bearing. In this picture he wears the typical Mewari turban of the Udaipur state. His performance of Raga Megh at the 1916 Baroda music conference apparently provoked a thunderstorm that lasted a few hours, acording to Atiya Begum Fyzee-Rahmin who was present on the occasion.

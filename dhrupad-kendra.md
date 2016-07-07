@@ -1,5 +1,5 @@
 ---
-layout: sidebar-article
+layout: page
 title: Dhrupad Kendra
 permalink: /dhrupad-kendra/
 url: https://www.youtube.com/user/dhrupadkendrabhopal

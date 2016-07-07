@@ -3,6 +3,7 @@
 footer {
     border-top: 1px solid lighten($background-color, 10%);
     padding: $spacing-unit 0;
+    color: darken($background-color, 30%);
 }
 
 .footer-heading {
@@ -16,18 +17,16 @@ footer {
     margin-left: 0;
 }
 
-.footer-col-wrapper {
-  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-  display: -ms-flexbox;      /* TWEENER - IE 10 */
-  display: -webkit-flex;     /* NEW - Chrome */
-  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */;
-  justify-content: space-between;
-  font-size: $small-font-size;
-  color: lighten($background-color, 30%);;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
-}
+// .footer-col-wrapper {
+//   display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+//   display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+//   display: -ms-flexbox;      /* TWEENER - IE 10 */
+//   display: -webkit-flex;     /* NEW - Chrome */
+//   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */;
+//   justify-content: space-between;
+//   font-size: $small-font-size;
+//   @extend %clearfix;
+// }
 
 .footer-col {
   -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */

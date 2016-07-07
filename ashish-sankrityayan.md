@@ -1,5 +1,5 @@
 ---
-layout: sidebar-article
+layout: page
 title: Ashish Sankrityayan
 permalink: /ashish-sankrityayan/
 ---
