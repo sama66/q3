@@ -8,9 +8,8 @@ ul.maestro-list {
       flex-flow: wrap;
 
   li {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+
+    display: block;
     margin: 0 20px $spacing-unit 0;
     max-width: 150px;
     height: 225px;
@@ -20,7 +19,7 @@ ul.maestro-list {
       position: relative;
       display: block;
       padding: 3px 2px 8px;
-      text-align: left;
+      text-align: center;
       font-size: 110%;
       top: -68px;
       line-height:1;

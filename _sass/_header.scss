@@ -5,6 +5,8 @@ header {
   background: whitesmoke;
   width: 9em;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
