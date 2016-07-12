@@ -4,6 +4,7 @@ footer {
     border-top: 1px solid lighten($background-color, 10%);
     padding: $spacing-unit 0;
     color: darken($background-color, 30%);
+    margin-top: 200px;
 }
 
 .footer-heading {
@@ -67,6 +68,11 @@ footer {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
     float: right;
+}
+span.dnd {
+  text-align: center;
+  display: block;
+  font-size: 0.69em;
 }
 
 @include media-query($on-laptop) {

@@ -1,27 +1,32 @@
 //MAESTRO LIST
 
-ul.maestro-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: wrap;
-      flex-flow: wrap;
+.maestro-list {
+  margin-bottom: 100px;
 
-  li {
 
+  figure {
+
+//    margin: 0 20px $spacing-unit 0;
+    position: relative;
+//    flex: 1 0 150px;
     display: block;
-    margin: 0 20px $spacing-unit 0;
-    max-width: 150px;
+    width: 150px;
     height: 225px;
-    border: 5px solid lighten($background-color, 5%);
+    margin: 0 1% 1% 0;
+    float: left;
+    overflow: hidden;
+    border: 4px solid white;
+
+    img {
+      width: 100%;
+    }
 
     figcaption {
       position: relative;
-      display: block;
-      padding: 3px 2px 8px;
-      text-align: center;
-      font-size: 110%;
-      top: -68px;
+      text-align: left;
+      top: -41px;
+      padding: 5px;
+      font-size: 1em;
       line-height:1;
       font-weight: bold;
       color: #df8b27;

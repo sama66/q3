@@ -80,7 +80,6 @@
   .lead-box {
 
     .splash-text {
-      font-size: 110%;
       margin: 0;
       padding: 3px;
 
@@ -105,7 +104,7 @@
     }
   }
 
-  ul.maestro-list {
+  .maestro-list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -113,14 +112,20 @@
         flex-flow: wrap;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
-            justify-content: space-between;
+            justify-content: center;
 
-    li {
-      margin: 0 0 5px;
+    figure {
+      margin: 0 5px 5px;
       max-width: none;
       flex: 0 1 135px;
       height: 200px;
       border: 1px;
+
+      a {
+        figcaption {
+          opacity: 1;
+        }
+      }
     }
   }
   .three-column {

@@ -1,0 +1,158 @@
+/**
+ * Site header
+ */
+header {
+  background: whitesmoke;
+  width: 9em;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: fixed;
+  box-shadow: 1px 0 5px #666;
+
+  h1 {
+    letter-spacing: -1px;
+    font-size: 1.8em;
+    text-align: center;
+  }
+  .icon {
+    &:hover {
+      > svg {
+          path {
+              fill: $link-color;
+          }
+      }
+    }
+  }
+}
+
+.title-wrap {
+  padding: 5px;
+}
+
+.site-title {
+    line-height: 1;
+
+    &,
+    &:visited {
+        color: $title-color;
+    }
+    &:hover {
+      color: darken($title-color, 10%);
+      text-decoration: none;
+    }
+}
+.site-description {
+  font-size: 65%;
+  text-align: center;
+  color: $title-color;
+  text-transform: uppercase;
+  padding: 0;
+  font-weight: 400;
+}
+.site-nav {
+  text-align: right;
+
+  ul {
+    list-style: none;
+    padding: 0 10px 0 0;
+    margin: 0;
+
+    li {
+      font-size: 75%;
+      margin-bottom: 4px;
+      font-family: Arial, sans-serif;
+
+      a {
+        color: $nav-color;
+        -moz-transition: color 1s; /*Firefox*/
+        -webkit-transition: color 1s; /* Safari */
+        transition: color 1s;
+
+        &:hover {
+          color: #000;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+        line-height: 1;
+        font-family: Trebuchet, sans-serif;
+
+        a {
+          color: $nav-color;
+        }
+
+        &:hover {
+          color: $link-color;
+          text-decoration: none;
+        }
+
+        // Gaps between nav items, but not on the first one
+        &:not(:first-child) {
+            margin-left: 10px;
+        }
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 8px;
+        right: 30px;
+        background-color: $background-color;
+        border: 1px solid $nav-color;
+        border-radius: 5px;
+        text-align: right;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $link-color;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 10px;
+        }
+    }
+}
+
+
+
+
+.header-email {
+  margin: 0 10px 20px;
+  text-align: center;
+  font-size: 0.7em;
+}

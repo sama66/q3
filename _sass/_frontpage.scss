@@ -24,12 +24,12 @@
   }
 }
 .section-1 {
-  background: url('https://sama66.github.io/q3/asset/img/nasiruddin-ziauddin-01.jpg');
-  background-size: cover;
-  background-position: center bottom;
+  background: url('/asset/img/nasiruddin-ziauddin-01.jpg') #777;
+  background-size: 100%;
+  background-position: center center;
 }
 .lead-box {
-  padding: 300px 20px 20px;
+  padding: 190px 20px 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -39,19 +39,21 @@
 }
 .splash-text {
   background: rgba(245, 245, 245, 0.7);
-  padding: 10px;
+  padding: 3px;
   color: #000;
   display: block;
   line-height: 1;
-  width: 500px;
+  width: 80%;
+  text-align: center;
 
   h1 {
     color: #000;
     letter-spacing: -5;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin: 0;
   }
   p {
-    font-size: 1.3em;
+    font-size: 1.2em;
   }
 }
 
