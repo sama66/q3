@@ -1,3 +1,5 @@
+//PAGE HEADER
+
 .page-header {
   background: darken($background-color, 3%);
   margin-bottom: $spacing-unit*2;
@@ -174,4 +176,24 @@ img.image-right {
   &:hover {
     box-shadow: 0 0 10px #666;
   }
+}
+
+// AUDIO CONTROLS
+
+.audio-box {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  background: darken($background-color, 8%);
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 0.75em;
+  font-family: $nav-font;
+  line-height: 1.5;
+
+  p {
+    margin: 10px 0;
+  }
+}
+audio {
+  width: 100%;
 }

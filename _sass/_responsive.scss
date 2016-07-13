@@ -66,9 +66,18 @@
     padding-top: 68px;
     padding-left: 0;
   }
+
+  //PAGE HEADER
+
   .page-header {
     margin-bottom: $spacing-unit/2;
+
+    h1 {
+      padding: 2px 0;
+      font-size: 1.2em;
+    }
   }
+
 
   .section-1 {
     background-position: -90px;
@@ -140,8 +149,10 @@
     text-align: left;
   }
   .image-left, .image-right {
+    display: block;
     float: none;
     width: 100%;
+    margin: 5px 0;
   }
 
   .video-section li {

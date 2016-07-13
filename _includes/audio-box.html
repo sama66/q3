@@ -1,0 +1,8 @@
+{% if page.audio %}
+  <div class="audio-box">
+    <audio controls>
+      <source src="{{ site.baseurl }}/asset/audio/{{ page.audio }}" type="audio/mp3">
+    </audio>
+    <p><strong>{{ page.audioText.strong }} </strong>{{ page.audioText.normal }}</p>
+  </div>
+{% endif %}

@@ -8,6 +8,10 @@ categories: articles
 img:
   medium:  ayodhya_prasad_pakhavaj.jpg
 excerpt: Rahim Fahimuddin Dagar would often praise the accompaniment of pakhāvaj players like the famed Ayodhya Prasad and Govindrao Burhanpurkar with his father that he heard in his youth.
+audio:  adana-composition-rahimuddin-dagar-ayodhya-prasad.mp3
+audioText:
+  strong: Pt Ayodhya Prasad
+  normal: pakhāvaj accompaniment
 ---
 Rahim Fahimuddin Dagar would often talk of pakhāvaj accompaniment that follows the aṅgs of singing, for improvisation in dhrupad compositions is a demonstration of the facets or aṅgs of the rāga within the constraint of the lyrics of the composition and the structure of the tāla – its inner subdivisions and points of emphasis – the tālī and khālī. He  would praise the accompaniment of pakhāvaj players like the famed Ayodhya Prasad and Govindrao Burhanpurkar with his father that he heard in his youth.
 

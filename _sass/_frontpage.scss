@@ -1,11 +1,17 @@
 //SECTION 1
 
+.section-1 {
+  border-bottom: 1px solid darken($background-color, 10%);
+  margin-bottom: $spacing-unit;
+}
+
 .section {
   margin-bottom: $spacing-unit;
-  padding: $spacing-unit 0;
+//  border-bottom: 3px solid red;
 }
 .sub-section {
-  border-bottom: 1px solid $nav-color;
+  padding-bottom: $spacing-unit;
+  border-bottom: 1px solid darken($background-color, 10%);
 }
 .section-flex {
   display: -webkit-box;
@@ -24,12 +30,12 @@
   }
 }
 .section-1 {
-  background: url('https://sama66.github.io/q3/asset/img/nasiruddin-ziauddin-01.jpg') #777;
+  background: url('https://sama66.github.io/q3/asset/img/nasiruddin-ziauddin-01.jpg') #CCC;
   background-size: cover;
-  background-position: center center;
+  background-position: center top;
 }
 .lead-box {
-  padding: 190px 20px 35px;
+  padding: 280px 20px 5px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,12 +44,12 @@
           justify-content: center;
 }
 .splash-text {
-  background: rgba(245, 245, 245, 0.7);
-  padding: 3px;
+  background: rgba(245, 245, 245, 0.8);
+  padding: 3px 0;
   color: #000;
   display: block;
   line-height: 1;
-  width: 80%;
+  width: 60%;
   text-align: center;
 
   h1 {
@@ -54,6 +60,7 @@
   }
   p {
     font-size: 1.2em;
+    margin-bottom: 0;
   }
 }
 
@@ -90,6 +97,68 @@
   height: 160px;
   background: black;
 }
+
+// CD BOX
+
+.cd-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .cd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 360px;
+    box-shadow: 0 0 3px #888;
+
+    h4, p {
+      margin: 0;
+      line-height: 0.9;
+    }
+
+    .cd-img {
+      width: 80px;
+      height: 80px;
+      padding: 7px;
+    }
+
+    .cd-text {
+      margin: 0;
+      margin-left: 10px;
+
+      h4 {
+        font-size: 1.85em;
+        font-weight: 100;
+      }
+      p {
+        font-size: .85em;
+        margin-bottom: 3px;
+      }
+    }
+  }
+
+  a {
+    background: darken($background-color, 10%);
+    color: black;
+    transition: all .5s ease-in-out;
+    img {
+      transform: scale(1);
+      transition: all 1s ease-in-out;
+    }
+
+    &:hover {
+      box-shadow: 0 0 8px #333;
+
+      img {
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+
+
 .text-column {
   -webkit-box-flex:11;
       -ms-flex:11;

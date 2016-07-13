@@ -1,17 +1,19 @@
 ---
 layout: default
 ---
-<div class="page-header">
-  <div class="wrapper">
-      <h1 class="post-title">{% if page.categories %}{{ page.categories }}{% else %}{{ page.title }}{% endif %}</h1>
-  </div>
-</div>
+
+{% include page-header.html %}
+
+
 <div class="wrapper">
   <div class="three-column">
     <div class="three-col-1">
       {% if page.img %}<img src="{{ site.baseurl }}/asset/img/medium/{{ page.img.medium }}">{% endif %}
       <h1 class="post-title">{{ page.title }}</h1>
       <p>{{ page.year }}</p>
+
+      {% include audio-box.html %}
+
     </div>
     <div class="three-col-2">
     <article class="post-content">

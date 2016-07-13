@@ -158,7 +158,7 @@ An interview with Ashish Sankrityayan
 
 **JL** :: Just one final question, then. Is there any other kind of music in any part of the world, that you feel dhrupad is related to?
 
-![Hildegard von Bingen]({{ site.baseurl }}/asset/img/hildegard.jpg){:.image-left}*Hildegad von Bingen*
+![Hildegard von Bingen]({{ site.baseurl }}/asset/img/hildegard.jpg){:.image-right}*Hildegad von Bingen*
 
 **AS** :: Dhrupad, and dhrupad singing is of course related to a lot of the sacred music of the world, and especially the medieval music of Europe. In some ways, it is very similar.
 

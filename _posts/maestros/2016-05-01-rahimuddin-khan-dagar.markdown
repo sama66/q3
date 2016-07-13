@@ -7,6 +7,10 @@ img:
   small: rahimuddin-small.jpg
   medium: rahimuddin-medium.jpg
 year: 1901-1976
+audio:  rahimuddin_interview.mp3
+audioText:
+  strong: Interview and demonstration by Rahimuddin Khan Dagar
+  normal: where he illustrates the styles of Zakiruddin Khan and Allabande Khan
 permalink: maestros/rahimuddin-khan
 ---
 
