@@ -9,6 +9,9 @@
 
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  {% if page.url == "/404.html" %}<meta http-equiv="refresh" content="5; url=sama66.github.io/q3/">{% endif %}
+
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
   <link href="https://fonts.googleapis.com/css?family=Scope+One|Merriweather:300" rel="stylesheet">
