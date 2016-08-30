@@ -18,6 +18,14 @@
         -ms-flex: auto;
             flex: auto;
   }
+  .cd-box {
+    flex-direction: column;
+    max-width: 400px;
+  }
+  .cd {
+    margin-top: 10px;
+  }
+
 }
 
 @media screen and (max-width: $on-palm) {
@@ -41,7 +49,7 @@
         }
   }
   .title-wrap {
-    margin: 8px 0;
+    margin: 0;
 
     h1 {
       margin: 0;
@@ -63,7 +71,7 @@
 
 
   .page-content {
-    padding-top: 68px;
+    padding-top: 53px;
     padding-left: 0;
   }
 
