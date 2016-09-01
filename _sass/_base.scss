@@ -110,8 +110,10 @@ a {
  * Blockquotes
  */
 blockquote {
-    background: darken($background-color, 10%);
+    background: darken($background-color, 20%);
+    color: white;
     padding: $spacing-unit / 2;
+    border-radius: 5px;
     font-size: 18px;
     letter-spacing: 1px;
 
